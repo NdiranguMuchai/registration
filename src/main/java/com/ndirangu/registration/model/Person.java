@@ -1,13 +1,12 @@
 package com.ndirangu.registration.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "person")
 public class Person {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String Name;
     private Long nationalId;
