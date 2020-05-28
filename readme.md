@@ -30,7 +30,7 @@ git clone https://github.com/NdiranguMuchai/registration.git
 ./mvnw package
 java -jar target/*.jar
 ```
-You can then access health here: http://localhost:8080/person
+You can then access it here: http://localhost:8080/person
 
 Or you can run it from Maven directly using the Spring Boot Maven plugin. If you do this it will pick up changes that you make in the project immediately (changes to Java source files require a compile as well - most people use an IDE for this):
 
