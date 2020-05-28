@@ -22,7 +22,7 @@ The following items should be installed in your system:
 * Spring will handle the rest 
 
 ## Running it locally
-Health records is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
+Registration is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
 
 
 ```
@@ -30,7 +30,7 @@ git clone https://github.com/NdiranguMuchai/registration.git
 ./mvnw package
 java -jar target/*.jar
 ```
-You can then access health here: http://localhost:8080/
+You can then access health here: http://localhost:8080/person
 
 Or you can run it from Maven directly using the Spring Boot Maven plugin. If you do this it will pick up changes that you make in the project immediately (changes to Java source files require a compile as well - most people use an IDE for this):
 
